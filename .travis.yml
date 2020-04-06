@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-#  at the ned we dom't use . but ./client --> the ast parameter is a context, so our context is client directory  
+#  at the ned we dom't use . but ./client --> the ast parameter is a context, so our context is client directory
   - docker build -t mateusz/react-test -f ./client/Dockerfile.dev ./client
 
 script:
@@ -33,5 +33,4 @@ deploy:
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
-  secret_access_key:
-    secure: $AWS_SECRET_KEY
+  secret_access_key: $AWS_SECRET_KEY
