@@ -5,23 +5,23 @@ services:
 
 before_install:
 #  at the ned we dom't use . but ./client --> the ast parameter is a context, so our context is client directory
-  - docker build -t mateusz/react-test -f ./client/Dockerfile.dev ./client
+  - docker build -t mateusz86pl2/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run -e CI=true mateusz/react-test npm test
+  - docker run -e CI=true mateusz86pl2/react-test npm test
 
 after_success:
-  - docker build -t mateusz/multi-client ./client
-  - docker build -t mateusz/multi-nginx ./nginx
-  - docker build -t mateusz/multi-server ./server
-  - docker build -t mateusz/multi-worker ./worker
+  - docker build -t mateusz86pl2/multi-client ./client
+  - docker build -t mateusz86pl2/multi-nginx ./nginx
+  - docker build -t mateusz86pl2/multi-server ./server
+  - docker build -t mateusz86pl2/multi-worker ./worker
   # Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # Take those images and push them to docker hub
-  - docker push mateusz/multi-client
-  - docker push mateusz/multi-nginx
-  - docker push mateusz/multi-server
-  - docker push mateusz/multi-worker
+  - docker push mateusz86pl2/multi-client
+  - docker push mateusz86pl2/multi-nginx
+  - docker push mateusz86pl2/multi-server
+  - docker push mateusz86pl2/multi-worker
 
 #deploy:
 #  provider: elasticbeanstalk
