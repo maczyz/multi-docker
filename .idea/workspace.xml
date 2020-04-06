@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f015a0ed-2558-4b86-a07c-d407b664f757" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="ProjectId" id="1a8frt3mRdhxjqJR8S7RppJEGg1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MCzyz\Documents\IT\Docker\UdemyDockerAndKubernetes\CI-CD-React\complex\client" />
+      <recent name="C:\Users\MCzyz\Documents\IT\Docker\UdemyDockerAndKubernetes\CI-CD-React\complex\worker" />
+      <recent name="C:\Users\MCzyz\Documents\IT\Docker\UdemyDockerAndKubernetes\CI-CD-React\complex\server" />
+      <recent name="C:\Users\MCzyz\Documents\IT\Docker\UdemyDockerAndKubernetes\CI-CD-React\complex\client\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f015a0ed-2558-4b86-a07c-d407b664f757" name="Default Changelist" comment="" />
+      <created>1586122343937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586122343937</updated>
+      <workItem from="1586122345394" duration="7841000" />
+      <workItem from="1586164031580" duration="12317000" />
+      <workItem from="1586193848657" duration="686000" />
+      <workItem from="1586194588616" duration="3884000" />
+      <workItem from="1586206368393" duration="2955000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/client/node_modules/.staging/wait-for-expect-f613b21b/lib/waitForExpect.spec.d.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="514" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586164775455">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="514" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1586164775455" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586174507926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1586174507926" />
+    <state x="462" y="144" width="635" height="536" key="find.popup" timestamp="1586195176583">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="144" width="635" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1586195176583" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586124221033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586124221033" />
+  </component>
+</project>
